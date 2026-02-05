@@ -1,0 +1,1 @@
+print("Surname: Nechaeva; Name: Nika; Group number: 4731901/50002; Year: 2025")
