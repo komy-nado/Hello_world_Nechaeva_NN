@@ -17,4 +17,4 @@ b = 5
 result = a + b
 print(f"Результат сложения {a} + {b} равен {result}")
 ```
-:shipit: :tada: :octocat: :tada: :shipit:
+:accordion: :shipit: :tada: :octocat: :tada: :shipit: :accordion:
