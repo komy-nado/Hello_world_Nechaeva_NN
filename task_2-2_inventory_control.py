@@ -1,0 +1,6 @@
+product=input("название нового реактива: ")
+how_much=input("Скока штукаф?: ")
+print(f"Реактив {product} поступил на склад в количестве {how_much} шт")
+f = open("inventory.txt", "w", encoding="utf-8")
+print("Результаты работы", file=f)
+f.close(f)

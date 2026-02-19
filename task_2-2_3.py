@@ -1,0 +1,5 @@
+product=input("Введите название прибора: ")
+condition=input("Работает? Да/Нет: ")
+inv_numb=input("Введитего инвентарный номер: ")
+how_much=input("Скока?: ")
+print(f"Название продукта {product} \t Работает ли {condition} \t Номер {inv_numb} \t Количество {how_much}")
