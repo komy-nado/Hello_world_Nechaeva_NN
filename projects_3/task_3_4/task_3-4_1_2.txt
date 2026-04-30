@@ -1,0 +1,9 @@
+adminn@PCna:~$ lsh /
+Command 'lsh' not found, did you mean:
+  command 'lsd' from snap lsd (0.16.0)
+  command 'ssh' from deb openssh-client (1:9.6p1-3ubuntu13.14)
+  command 'lshw' from deb lshw (02.19.git.2021.06.19.996aaad9c7-2build1)
+  command 'zsh' from deb zsh (5.9-5ubuntu1)
+  command 'ls' from deb coreutils (9.4-3ubuntu6.1)
+  command 'sh' from deb dash (0.5.12-6ubuntu1)
+See 'snap info <snapname>' for additional versions.

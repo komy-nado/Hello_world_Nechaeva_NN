@@ -1,0 +1,6 @@
+ du -h --max-depth=2 ./
+0       ./.copilot/ide
+0       ./.copilot
+0       ./.idlerc
+0       ./.ms-ad
+0       ./.vscode/cli
