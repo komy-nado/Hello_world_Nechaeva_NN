@@ -1,0 +1,39 @@
+body {
+  background: #D3B2D1;
+  font-family: Comic Sans MS;
+  color: #201920;
+  margin: 20px;
+}
+
+h1 {
+  color: #6A4C6A;
+  background: #fff1fe;
+  padding: 15px;
+  border: 3px dashed #D2B9D9;
+  text-align: center;
+}
+
+p {
+  color: #201920;
+  background: #ffeaea;
+  padding: 10px;
+  font-size: 18px;
+  border-left: 5px solid #EC414F;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #6A4C6A;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #EC414F;
+}
+
+.highlight {
+  background: #fff1fe;
+  border: 2px dashed #EC414F;
+  box-shadow: 0 0 15px rgb(255, 205, 241);
+}

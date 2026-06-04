@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Selectors</title>
+
+  <style>
+
+    /* Универсальный селектор */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #D3B2D1;
+      font-family: "Comic Sans MS", cursive;
+      margin: 20px;
+      color: #201920;
+    }
+
+    /* Селектор по id */
+    #title {
+      background: #fff1fe;
+      color: #6A4C6A;
+      padding: 20px;
+      text-align: center;
+      border: 3px dashed #708A93;
+    }
+
+    /* Группировка */
+    h1, h2, h3 {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    /* Селектор по тегу */
+    p {
+      background: #ffeaea;
+      padding: 10px;
+      border-left: 5px solid #EC414F;
+      margin-bottom: 15px;
+    }
+
+    /* Селектор по классу */
+    .lead {
+      font-size: 20px;
+      background: #fff1fe;
+    }
+
+    .box {
+      background: white;
+      padding: 20px;
+      margin-bottom: 15px;
+      border: 2px solid #D2B9D9;
+      border-radius: 10px;
+    }
+
+    /* Два класса одновременно */
+    .box.highlight {
+      background: #fff6b3;
+      border: 2px dashed #ffb703;
+    }
+
+    /* Три класса одновременно */
+    .box.highlight.large {
+      font-size: 24px;
+      box-shadow: 0 0 20px rgb(189, 255, 8);
+      padding: 40px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h1 id="title">
+    CSS селекторы уже следят за мной 👁️
+  </h1>
+
+  <p>
+    Обычный абзац. Ничего подозрительного.
+  </p>
+
+  <p class="lead">
+    А вот этот абзац особенный.
+    Он считает себя главным героем страницы.
+  </p>
+
+  <div class="box">
+    Просто коробка.
+  </div>
+
+  <div class="box highlight">
+    Коробка с подсветкой ✨
+  </div>
+
+  <div class="box highlight large">
+    Огромная коробка.
+    Она уже вышла за пределы понимания.
+  </div>
+
+</body>
+</html>

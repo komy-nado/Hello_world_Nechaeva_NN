@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Псевдоклассы 😭</title>
+
+  <style>
+
+    body {
+      background: #D3B2D1;
+      font-family: "Comic Sans MS", cursive;
+      margin: 20px;
+      color: #201920;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6A4C6A;
+    }
+
+    ol {
+      background: #fff1fe;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    li {
+      padding: 10px;
+    }
+
+    /* Первый элемент */
+    li:first-child {
+      color: #EC414F;
+      font-weight: bold;
+    }
+
+    /* Последний элемент */
+    li:last-child {
+      color: #4E2D2F;
+      font-weight: bold;
+    }
+
+    /* Каждый третий */
+    li:nth-child(3n) {
+      background: #ffeaea;
+    }
+
+    /* Все кроме первого */
+    li:not(:first-child) {
+      border-top: 1px solid #999;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background: white;
+    }
+
+    td {
+      border: 1px solid #999;
+      padding: 12px;
+    }
+
+    /* Чётные строки */
+    tr:nth-child(even) {
+      background: #fff1fe;
+    }
+
+    a {
+      display: block;
+      margin-top: 15px;
+      color: #6A4C6A;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Наведение */
+    a:hover {
+      color: #EC414F;
+    }
+
+    /* PDF ссылки */
+    a[href$=".pdf"] {
+      color: red;
+    }
+
+    input {
+      display: block;
+      margin-top: 15px;
+      padding: 10px;
+      width: 300px;
+      border: 2px solid #D2B9D9;
+      border-radius: 8px;
+      font-family: inherit;
+    }
+
+    /* Фокус */
+    input:focus {
+      border-color: #EC414F;
+      outline: none;
+      box-shadow: 0 0 10px pink;
+    }
+
+    /* Обязательное поле */
+    input:required {
+      background: #fff4f4;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #EC414F;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #b62f3a;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h1>Псевдоклассы и лёгкое безумие</h1>
+
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>flexbox</li>
+    <li>grid</li>
+    <li>эмоциональное выгорание</li>
+  </ol>
+
+  <table>
+    <tr>
+      <td>Понедельник</td>
+      <td>Учусь</td>
+    </tr>
+
+    <tr>
+      <td>Вторник</td>
+      <td>Информатика 💞</td>
+    </tr>
+
+    <tr>
+      <td>Среда</td>
+      <td>Учусь</td>
+    </tr>
+
+    <tr>
+      <td>Четверг</td>
+      <td>Гуглю ошибки</td>
+    </tr>
+
+    <tr>
+      <td>Пятница</td>
+      <td>Оживляю сайт</td>
+    </tr>
+  </table>
+
+  <a href="about.html">
+    Внутренняя ссылка
+  </a>
+
+  <a href="https://stepik.org" target="_blank">
+    Stepik
+  </a>
+
+  <a href="Новые Русские.pdf.pdf">
+    PDF документ
+  </a>
+
+  <form>
+
+    <input type="text" placeholder="Введите имя">
+
+    <input type="email"
+           placeholder="Введите email"
+           required>
+
+    <button>
+      Отправить в интернет
+    </button>
+
+  </form>
+
+</body>
+</html>

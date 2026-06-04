@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Информатика 💖</title>
+
+  <link rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+
+  <h1>📊 Анализ базы данных</h1>
+
+  <p>
+    Мини SPA на Flask + HTML + CSS + JS
+  </p>
+
+</header>
+
+<div class="layout">
+
+  <aside class="sidebar">
+
+    <h2>Статистика</h2>
+
+    <button class="btn"
+            data-url="/api/value/mean">
+      Среднее
+    </button>
+
+    <button class="btn"
+            data-url="/api/value/median">
+      Медиана
+    </button>
+
+    <button class="btn"
+            data-url="/api/value/total">
+      Количество
+    </button>
+
+    <button class="btn clear"
+            id="clear-btn">
+      Очистить
+    </button>
+
+  </aside>
+
+  <main id="result">
+
+    <p class="placeholder">
+      Нажми кнопку слева ✨
+    </p>
+
+  </main>
+
+</div>
+
+<footer>
+  <p>
+    Сделано с болью и любовью 💖
+  </p>
+</footer>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
